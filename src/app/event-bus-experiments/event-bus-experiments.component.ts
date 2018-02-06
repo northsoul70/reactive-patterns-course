@@ -17,15 +17,12 @@ export class EventBusExperimentsComponent implements OnInit {
         store.initializeLessonsList(testLessons.slice(0));
 
         setTimeout(() => {
-
             const newLesson = {
                 id: Math.random(),
                 description: 'New lesson arriving from the backend'
             };
-
             store.addLesson(newLesson);
-
-        }, 10000);
+        }, 5000);
 
     }
 
