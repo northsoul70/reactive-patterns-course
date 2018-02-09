@@ -23,17 +23,5 @@ export class HomeComponent implements OnInit {
         this.courses$ =  this.coursesService.findAllCourses();
 
         this.latestLessons$ = this.coursesService.findLatestLessons();
-
-
-
     }
-
 }
-
-
-
-
-
-
-
-
